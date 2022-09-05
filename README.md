@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). To simulate running a server and updating the temperature, lights, and curtains I have used json-server package. Which allows us to mock up some REST API functionalities. It will need to be ran simultaniously with the react app.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). To simulate running a server and updating the temperature, lights, and curtains I have used json-server package. Which allows us to mock up some REST API functionalities. It will need to be ran simultaniously with the react app. Inspiration for the app design was a combination of the hue desktop app(https://apps.microsoft.com/store/detail/huetro-for-hue/9WZDNCRFJJ3T?hl=en-us&gl=us) and dribble home automation designs (https://dribbble.com/shots/8899139-Smart-Home).
 
 ![alt text](https://github.com/Roel-t/home-automation/blob/main/homeScreenShot.png?raw=true)
 

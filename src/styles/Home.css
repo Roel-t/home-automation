@@ -1,0 +1,73 @@
+
+/*  Home page */
+.room-list-container {
+    overflow: auto;
+    width: 80% !important;
+}
+
+.room-card-btn {
+    background-color: rgba(var(--primaryBackgroundColorRGB),0.6) !important;
+    height: 5rem;
+    flex-direction: column;
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.room-selected {
+    background-color: rgba(var(--primaryColorRGB), 0.3) !important;
+}
+
+.room-card-icon {
+    fill: white !important;
+}
+
+/*  Room component */
+.room-container {
+    background-color: rgba(var(--primaryBackgroundColorRGB),0.6) !important;
+    border-radius: 5px;
+    color: white !important;
+    min-height: 20rem;
+}
+
+/*  Device components */
+.device-card {
+    align-items: center;
+    background-color: rgba(var(--primaryBackgroundColorRGB),0.6) !important;
+    color: white !important;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+    height: 4rem;
+
+}
+
+.device-name {
+    width: 50%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.device-btn{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.device-switch .MuiSwitch-thumb {
+    color: rgba(65, 146, 226, 0.502) !important;
+}
+
+.device-switch .MuiSwitch-track {
+    background-color: rgba(79, 147, 216, 0.502) !important;
+}
+
+.device-card-active {
+    background-color: rgba(var(--primaryColorRGB), 0.3) !important;
+}
+
+.temperature-icon {
+    fill: white !important;
+}
